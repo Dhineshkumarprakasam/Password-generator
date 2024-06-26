@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password generator</title>
+    <link rel="stylesheet" href="/static/css/index.css" />
+  </head>
+  <body>
+    <h1 align="center">Password Generator</h1>
+    <div class="content">
+      <form action="/" method="post">
+        <input class="input-box" name="input-box" type="number" placeholder="Enter number of letters" required/>
+
+        <table>
+          <tr>
+            <td><input  type="checkbox" name="upper-case" /></td>
+            <td>Upper Case</td>
+          </tr>
+
+          <tr>
+            <td><input type="checkbox" name="lower-case" /></td>
+            <td>Lower Case</td>
+          </tr>
+
+          <tr>
+            <td><input type="checkbox" name="numbers" /></td>
+            <td>Numbers</td>
+          </tr>
+
+          <tr>
+            <td><input type="checkbox" name="symbols" /></td>
+            <td>Symbols</td>
+          </tr>
+        </table>
+
+        <button class="submit-button" type="submit">Submit</button>
+      </form>
+    </div>
+    <h3>Password : <h4>{{data}}</h4> </h3>
+  </body>
+</html>
