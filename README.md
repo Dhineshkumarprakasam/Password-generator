@@ -14,7 +14,7 @@ A simple and secure password generator web application built with HTML, CSS, Jav
 
 ## Technologies Used
 
-- Frontend: HTML, CSS, JavaScript
+- Frontend: HTML, CSS
 - Backend: Python Flask
 
 ## Screenshots
